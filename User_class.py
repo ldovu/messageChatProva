@@ -29,7 +29,7 @@ class Admin(User):
 
 class Message:
     def __init__(self, user, time, text):
-        self.user = User()
+        self.user = userID
         self.time = time
         self.text = text
         
