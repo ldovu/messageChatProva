@@ -13,9 +13,9 @@ with st.sidebar:
     st.title("Members")
     for x in df_users.iloc[:,0]:
         st.write(x)
-
+userID = 'andy: '
 def utente():
     st.session_state["userID"]
-message(message=st.text_input("Message:"))
+message(message=userID + st.text_input("Message: ")+ datetime.now().strftime(" %H:%M") )
 
 
