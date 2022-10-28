@@ -15,7 +15,6 @@ supabase=be.init_connection()
 #(così le azioni come la stampa dei messaggi vedono i database aggiornati)
 st_autorefresh(interval=1000, key="dataframerefresh")
 
-st.set_page_config(layout="centered")
 st.markdown("""
 <style>
 .big-font {
