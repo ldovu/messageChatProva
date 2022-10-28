@@ -5,7 +5,7 @@ import pandas as pd
 #from streamlit_chat import message as st_message
 from streamlit_chat import message
 from datetime import datetime
-import backend.py as be
+import backend as be
 from streamlit_autorefresh import st_autorefresh
 
 # funzione da invocare all'inizio per creare connessione al database
