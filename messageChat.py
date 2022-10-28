@@ -25,7 +25,7 @@ st.markdown("""
 
 st.markdown('<p class="big-font">Chat </p>', unsafe_allow_html=True)
 
-df_users= pd.read_csv('C:/Users/ludov/Desktop/Chet_users.csv', sep=';')
+df_users= pd.read_csv('Chet_users.csv', sep=';')
 
 with st.sidebar:
     st.title("Members")
