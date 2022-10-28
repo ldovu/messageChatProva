@@ -7,6 +7,7 @@ Created on Fri Oct 28 15:31:00 2022
 
 import streamlit as st
 from supabase import create_client, Client
+import pandas as pd
 
 ############################# CONNECTION FUNCTION ###########################
 def init_connection():
