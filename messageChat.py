@@ -1,8 +1,5 @@
 import streamlit as st
-#import numpy as np
-#import statistics as stat
 import pandas as pd
-#from streamlit_chat import message as st_message
 from streamlit_chat import message
 from datetime import datetime
 import backend as be
